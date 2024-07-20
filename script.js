@@ -1,14 +1,19 @@
 // dummy data for now, replace with your own data
 const posts = [
   {
-    title: "My First Project",
-    content: "This is my first project, it's a simple website...",
-    image: "robot-2.1.64.jpg"
+    title: "Mein erstes Projekt: 6 DOF Roboterarm",
+    content: "",
+    image: "MyProject.jpg"
   },
   {
-    title: "My Second Project",
+    title: "Ein kleines Video dazu:",
     content: "This is my second project, it's a more complex website...",
-    image: "robot-2.1.64.jpg"
+    video:  "IMG_4283.mp4"
+  },
+   {
+    title: "Der Quellcode:",
+    content: "This is my second project, it's a more complex website...",
+    
   },
   // add more posts here
 ];
