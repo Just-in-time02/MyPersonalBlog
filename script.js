@@ -20,10 +20,12 @@ posts.forEach((post) => {
       <h2 class="post-title">${post.title}</h2>
       <img src="${post.image}" alt="${post.title}" class="post-image">
       <p class="post-content">${post.content}</p>
-      <video width="100%" controls>
-        <source src="${post.video}" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      ${post.video ? `
+        <video width="100%" controls>
+          <source src="${post.video}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      ` : ''}
     </div>
   `;
   postList.innerHTML += postHTML;
