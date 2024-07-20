@@ -9,11 +9,6 @@ const posts = [
     title: "Ein kleines Video dazu:",
     video:  "IMG_4283.mp4"
   },
-   {
-    title: "Der Quellcode:",
-
-    
-  },
   // add more posts here
 ];
 
